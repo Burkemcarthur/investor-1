@@ -1,0 +1,68 @@
+echo "# investor-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Burkemcarthur/investor-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Investment Company</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Investment Company</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#investments">Investments</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <h2>Welcome to Investment Company!</h2>
+        <p>Investment Company is dedicated to helping you find the right investment opportunities. Browse our selection of investments below, or learn more about us on our About Us page.</p>
+      </section>
+
+      <!-- About Us -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Investment Company was founded in 20XX with a mission to help everyday investors access high-quality investment opportunities. Our team of experts has years of experience in the finance industry, and we're dedicated to providing top-notch service to all of our clients.</p>
+      </section>
+
+      <!-- Investments -->
+      <section id="investments">
+        <h2>Investments</h2>
+        <p>Click on the investment opportunities below to learn more.</p>
+        <ul>
+          <li>
+            <h3>Investment Opportunity 1</h3>
+            <p>Description of Investment Opportunity 1</p>
+            <button>Subscribe Now</button>
+          </li>
+          <li>
+            <h3>Investment Opportunity 2</h3>
+            <p>Description of Investment Opportunity 2</p>
+            <button>Subscribe Now</button>
+          </li>
+          <li>
+            <h3>Investment Opportunity 3</h3>
+            <p>Description of Investment Opportunity 3</p>
+            <button>Subscribe Now</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Investment Company 20XX</p>
+    </footer>
+  </body>
+</html>
